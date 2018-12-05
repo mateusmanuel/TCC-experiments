@@ -74,9 +74,9 @@ import java.util.IdentityHashMap;
  * @author Jonathan Hedley, jonathan@hedley.net
  * @see Element#select(String)
  */
-public class Selector {public static class __CLR4_2_17yw7ywjp2rxack{public static com_atlassian_clover.CoverageRecorder R;public static com_atlassian_clover.CloverProfile[] profiles = { };@java.lang.SuppressWarnings("unchecked") public static <I, T extends I> I lambdaInc(final int i,final T l,final int si){java.lang.reflect.InvocationHandler h=new java.lang.reflect.InvocationHandler(){public java.lang.Object invoke(java.lang.Object p,java.lang.reflect.Method m,java.lang.Object[] a) throws Throwable{R.inc(i);R.inc(si);try{return m.invoke(l,a);}catch(java.lang.reflect.InvocationTargetException e){throw e.getCause()!=null?e.getCause():new RuntimeException("Clover failed to invoke instrumented lambda",e);}}};return (I)java.lang.reflect.Proxy.newProxyInstance(l.getClass().getClassLoader(),l.getClass().getInterfaces(),h);}static{com_atlassian_clover.CoverageRecorder _R=null;try{com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_2_1();if(20171121235008561L!=com_atlassian_clover.CloverVersionInfo.getBuildStamp()){com_atlassian_clover.Clover.l("[CLOVER] WARNING: The Clover version used in instrumentation does not match the runtime version. You need to run instrumented classes against the same version of Clover that you instrumented with.");com_atlassian_clover.Clover.l("[CLOVER] WARNING: Instr=4.2.1#20171121235008561,Runtime="+com_atlassian_clover.CloverVersionInfo.getReleaseNum()+"#"+com_atlassian_clover.CloverVersionInfo.getBuildStamp());}R=com_atlassian_clover.Clover.getNullRecorder();_R=com_atlassian_clover.Clover.getNullRecorder();_R=com_atlassian_clover.Clover.getRecorder("\u002f\u0068\u006f\u006d\u0065\u002f\u006d\u0061\u0074\u0065\u0075\u0073\u002f\u0044\u006f\u0063\u0075\u006d\u0065\u006e\u0074\u006f\u0073\u002f\u0054\u0043\u0043\u002f\u006a\u0073\u006f\u0075\u0070\u002f\u0074\u0061\u0072\u0067\u0065\u0074\u002f\u0063\u006c\u006f\u0076\u0065\u0072\u002f\u0063\u006c\u006f\u0076\u0065\u0072\u002e\u0064\u0062",1543506510356L,8589935092L,10371,profiles,new java.lang.String[]{"clover.distributed.coverage",null});}catch(java.lang.SecurityException e){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised because it has insufficient security privileges. Please consult the Clover documentation on the security policy file changes required. ("+e.getClass()+":"+e.getMessage()+")");}catch(java.lang.NoClassDefFoundError e){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised. Are you sure you have Clover in the runtime classpath? ("+e.getClass()+":"+e.getMessage()+")");}catch(java.lang.Throwable t){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised because of an unexpected error. ("+t.getClass()+":"+t.getMessage()+")");}R=_R;}}public static final com_atlassian_clover.TestNameSniffer __CLR4_2_1_TEST_NAME_SNIFFER=com_atlassian_clover.TestNameSniffer.NULL_INSTANCE;
+public class Selector {public static class __CLR4_2_17yw7ywjpaexqsw{public static com_atlassian_clover.CoverageRecorder R;public static com_atlassian_clover.CloverProfile[] profiles = { };@java.lang.SuppressWarnings("unchecked") public static <I, T extends I> I lambdaInc(final int i,final T l,final int si){java.lang.reflect.InvocationHandler h=new java.lang.reflect.InvocationHandler(){public java.lang.Object invoke(java.lang.Object p,java.lang.reflect.Method m,java.lang.Object[] a) throws Throwable{R.inc(i);R.inc(si);try{return m.invoke(l,a);}catch(java.lang.reflect.InvocationTargetException e){throw e.getCause()!=null?e.getCause():new RuntimeException("Clover failed to invoke instrumented lambda",e);}}};return (I)java.lang.reflect.Proxy.newProxyInstance(l.getClass().getClassLoader(),l.getClass().getInterfaces(),h);}static{com_atlassian_clover.CoverageRecorder _R=null;try{com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_2_1();if(20171121235008561L!=com_atlassian_clover.CloverVersionInfo.getBuildStamp()){com_atlassian_clover.Clover.l("[CLOVER] WARNING: The Clover version used in instrumentation does not match the runtime version. You need to run instrumented classes against the same version of Clover that you instrumented with.");com_atlassian_clover.Clover.l("[CLOVER] WARNING: Instr=4.2.1#20171121235008561,Runtime="+com_atlassian_clover.CloverVersionInfo.getReleaseNum()+"#"+com_atlassian_clover.CloverVersionInfo.getBuildStamp());}R=com_atlassian_clover.Clover.getNullRecorder();_R=com_atlassian_clover.Clover.getNullRecorder();_R=com_atlassian_clover.Clover.getRecorder("\u002f\u0068\u006f\u006d\u0065\u002f\u006d\u0061\u0074\u0065\u0075\u0073\u002f\u0044\u006f\u0063\u0075\u006d\u0065\u006e\u0074\u006f\u0073\u002f\u0054\u0043\u0043\u002f\u006a\u0073\u006f\u0075\u0070\u002f\u0074\u0061\u0072\u0067\u0065\u0074\u002f\u0063\u006c\u006f\u0076\u0065\u0072\u002f\u0063\u006c\u006f\u0076\u0065\u0072\u002e\u0064\u0062",1543968426087L,8589935092L,10371,profiles,new java.lang.String[]{"clover.distributed.coverage",null});}catch(java.lang.SecurityException e){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised because it has insufficient security privileges. Please consult the Clover documentation on the security policy file changes required. ("+e.getClass()+":"+e.getMessage()+")");}catch(java.lang.NoClassDefFoundError e){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised. Are you sure you have Clover in the runtime classpath? ("+e.getClass()+":"+e.getMessage()+")");}catch(java.lang.Throwable t){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised because of an unexpected error. ("+t.getClass()+":"+t.getMessage()+")");}R=_R;}}public static final com_atlassian_clover.TestNameSniffer __CLR4_2_1_TEST_NAME_SNIFFER=com_atlassian_clover.TestNameSniffer.NULL_INSTANCE;
     // not instantiable
-    private Selector() {try{__CLR4_2_17yw7ywjp2rxack.R.inc(10328);}finally{__CLR4_2_17yw7ywjp2rxack.R.flushNeeded();}}
+    private Selector() {try{__CLR4_2_17yw7ywjpaexqsw.R.inc(10328);}finally{__CLR4_2_17yw7ywjpaexqsw.R.flushNeeded();}}
 
     /**
      * Find elements matching selector.
@@ -86,10 +86,10 @@ public class Selector {public static class __CLR4_2_17yw7ywjp2rxack{public stati
      * @return matching elements, empty if none
      * @throws Selector.SelectorParseException (unchecked) on an invalid CSS query.
      */
-    public static Elements select(String query, Element root) {try{__CLR4_2_17yw7ywjp2rxack.R.inc(10329);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10330);Validate.notEmpty(query);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10331);return select(QueryParser.parse(query), root);
-    }finally{__CLR4_2_17yw7ywjp2rxack.R.flushNeeded();}}
+    public static Elements select(String query, Element root) {try{__CLR4_2_17yw7ywjpaexqsw.R.inc(10329);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10330);Validate.notEmpty(query);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10331);return select(QueryParser.parse(query), root);
+    }finally{__CLR4_2_17yw7ywjpaexqsw.R.flushNeeded();}}
 
     /**
      * Find elements matching selector.
@@ -98,11 +98,11 @@ public class Selector {public static class __CLR4_2_17yw7ywjp2rxack{public stati
      * @param root root element to descend into
      * @return matching elements, empty if none
      */
-    public static Elements select(Evaluator evaluator, Element root) {try{__CLR4_2_17yw7ywjp2rxack.R.inc(10332);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10333);Validate.notNull(evaluator);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10334);Validate.notNull(root);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10335);return Collector.collect(evaluator, root);
-    }finally{__CLR4_2_17yw7ywjp2rxack.R.flushNeeded();}}
+    public static Elements select(Evaluator evaluator, Element root) {try{__CLR4_2_17yw7ywjpaexqsw.R.inc(10332);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10333);Validate.notNull(evaluator);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10334);Validate.notNull(root);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10335);return Collector.collect(evaluator, root);
+    }finally{__CLR4_2_17yw7ywjpaexqsw.R.flushNeeded();}}
 
     /**
      * Find elements matching selector.
@@ -111,42 +111,42 @@ public class Selector {public static class __CLR4_2_17yw7ywjp2rxack{public stati
      * @param roots root elements to descend into
      * @return matching elements, empty if none
      */
-    public static Elements select(String query, Iterable<Element> roots) {try{__CLR4_2_17yw7ywjp2rxack.R.inc(10336);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10337);Validate.notEmpty(query);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10338);Validate.notNull(roots);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10339);Evaluator evaluator = QueryParser.parse(query);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10340);ArrayList<Element> elements = new ArrayList<>();
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10341);IdentityHashMap<Element, Boolean> seenElements = new IdentityHashMap<>();
+    public static Elements select(String query, Iterable<Element> roots) {try{__CLR4_2_17yw7ywjpaexqsw.R.inc(10336);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10337);Validate.notEmpty(query);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10338);Validate.notNull(roots);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10339);Evaluator evaluator = QueryParser.parse(query);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10340);ArrayList<Element> elements = new ArrayList<>();
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10341);IdentityHashMap<Element, Boolean> seenElements = new IdentityHashMap<>();
         // dedupe elements by identity, not equality
 
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10342);for (Element root : roots) {{
-            __CLR4_2_17yw7ywjp2rxack.R.inc(10343);final Elements found = select(evaluator, root);
-            __CLR4_2_17yw7ywjp2rxack.R.inc(10344);for (Element el : found) {{
-                __CLR4_2_17yw7ywjp2rxack.R.inc(10345);if ((((!seenElements.containsKey(el))&&(__CLR4_2_17yw7ywjp2rxack.R.iget(10346)!=0|true))||(__CLR4_2_17yw7ywjp2rxack.R.iget(10347)==0&false))) {{
-                    __CLR4_2_17yw7ywjp2rxack.R.inc(10348);elements.add(el);
-                    __CLR4_2_17yw7ywjp2rxack.R.inc(10349);seenElements.put(el, Boolean.TRUE);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10342);for (Element root : roots) {{
+            __CLR4_2_17yw7ywjpaexqsw.R.inc(10343);final Elements found = select(evaluator, root);
+            __CLR4_2_17yw7ywjpaexqsw.R.inc(10344);for (Element el : found) {{
+                __CLR4_2_17yw7ywjpaexqsw.R.inc(10345);if ((((!seenElements.containsKey(el))&&(__CLR4_2_17yw7ywjpaexqsw.R.iget(10346)!=0|true))||(__CLR4_2_17yw7ywjpaexqsw.R.iget(10347)==0&false))) {{
+                    __CLR4_2_17yw7ywjpaexqsw.R.inc(10348);elements.add(el);
+                    __CLR4_2_17yw7ywjpaexqsw.R.inc(10349);seenElements.put(el, Boolean.TRUE);
                 }
             }}
         }}
-        }__CLR4_2_17yw7ywjp2rxack.R.inc(10350);return new Elements(elements);
-    }finally{__CLR4_2_17yw7ywjp2rxack.R.flushNeeded();}}
+        }__CLR4_2_17yw7ywjpaexqsw.R.inc(10350);return new Elements(elements);
+    }finally{__CLR4_2_17yw7ywjpaexqsw.R.flushNeeded();}}
 
     // exclude set. package open so that Elements can implement .not() selector.
-    static Elements filterOut(Collection<Element> elements, Collection<Element> outs) {try{__CLR4_2_17yw7ywjp2rxack.R.inc(10351);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10352);Elements output = new Elements();
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10353);for (Element el : elements) {{
-            __CLR4_2_17yw7ywjp2rxack.R.inc(10354);boolean found = false;
-            __CLR4_2_17yw7ywjp2rxack.R.inc(10355);for (Element out : outs) {{
-                __CLR4_2_17yw7ywjp2rxack.R.inc(10356);if ((((el.equals(out))&&(__CLR4_2_17yw7ywjp2rxack.R.iget(10357)!=0|true))||(__CLR4_2_17yw7ywjp2rxack.R.iget(10358)==0&false))) {{
-                    __CLR4_2_17yw7ywjp2rxack.R.inc(10359);found = true;
-                    __CLR4_2_17yw7ywjp2rxack.R.inc(10360);break;
+    static Elements filterOut(Collection<Element> elements, Collection<Element> outs) {try{__CLR4_2_17yw7ywjpaexqsw.R.inc(10351);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10352);Elements output = new Elements();
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10353);for (Element el : elements) {{
+            __CLR4_2_17yw7ywjpaexqsw.R.inc(10354);boolean found = false;
+            __CLR4_2_17yw7ywjpaexqsw.R.inc(10355);for (Element out : outs) {{
+                __CLR4_2_17yw7ywjpaexqsw.R.inc(10356);if ((((el.equals(out))&&(__CLR4_2_17yw7ywjpaexqsw.R.iget(10357)!=0|true))||(__CLR4_2_17yw7ywjpaexqsw.R.iget(10358)==0&false))) {{
+                    __CLR4_2_17yw7ywjpaexqsw.R.inc(10359);found = true;
+                    __CLR4_2_17yw7ywjpaexqsw.R.inc(10360);break;
                 }
             }}
-            }__CLR4_2_17yw7ywjp2rxack.R.inc(10361);if ((((!found)&&(__CLR4_2_17yw7ywjp2rxack.R.iget(10362)!=0|true))||(__CLR4_2_17yw7ywjp2rxack.R.iget(10363)==0&false)))
-                {__CLR4_2_17yw7ywjp2rxack.R.inc(10364);output.add(el);
+            }__CLR4_2_17yw7ywjpaexqsw.R.inc(10361);if ((((!found)&&(__CLR4_2_17yw7ywjpaexqsw.R.iget(10362)!=0|true))||(__CLR4_2_17yw7ywjpaexqsw.R.iget(10363)==0&false)))
+                {__CLR4_2_17yw7ywjpaexqsw.R.inc(10364);output.add(el);
         }}
-        }__CLR4_2_17yw7ywjp2rxack.R.inc(10365);return output;
-    }finally{__CLR4_2_17yw7ywjp2rxack.R.flushNeeded();}}
+        }__CLR4_2_17yw7ywjpaexqsw.R.inc(10365);return output;
+    }finally{__CLR4_2_17yw7ywjpaexqsw.R.flushNeeded();}}
 
     /**
      * Find the first element that matches the query.
@@ -154,14 +154,14 @@ public class Selector {public static class __CLR4_2_17yw7ywjp2rxack{public stati
      * @param root root element to descend into
      * @return the matching element, or <b>null</b> if none.
      */
-    public static Element selectFirst(String cssQuery, Element root) {try{__CLR4_2_17yw7ywjp2rxack.R.inc(10366);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10367);Validate.notEmpty(cssQuery);
-        __CLR4_2_17yw7ywjp2rxack.R.inc(10368);return Collector.findFirst(QueryParser.parse(cssQuery), root);
-    }finally{__CLR4_2_17yw7ywjp2rxack.R.flushNeeded();}}
+    public static Element selectFirst(String cssQuery, Element root) {try{__CLR4_2_17yw7ywjpaexqsw.R.inc(10366);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10367);Validate.notEmpty(cssQuery);
+        __CLR4_2_17yw7ywjpaexqsw.R.inc(10368);return Collector.findFirst(QueryParser.parse(cssQuery), root);
+    }finally{__CLR4_2_17yw7ywjpaexqsw.R.flushNeeded();}}
 
     public static class SelectorParseException extends IllegalStateException {
         public SelectorParseException(String msg, Object... params) {
-            super(String.format(msg, params));__CLR4_2_17yw7ywjp2rxack.R.inc(10370);try{__CLR4_2_17yw7ywjp2rxack.R.inc(10369);
-        }finally{__CLR4_2_17yw7ywjp2rxack.R.flushNeeded();}}
+            super(String.format(msg, params));__CLR4_2_17yw7ywjpaexqsw.R.inc(10370);try{__CLR4_2_17yw7ywjpaexqsw.R.inc(10369);
+        }finally{__CLR4_2_17yw7ywjpaexqsw.R.flushNeeded();}}
     }
 }

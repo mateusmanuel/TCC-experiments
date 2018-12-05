@@ -10,6 +10,8 @@ do
     cd $PATH_PROJECT
     mvn clean compile
 
+    rm -r evosuite-tests
+
     $EVOSUITE -class $TARGET_CLASS -projectCP target/classes -Dsearch_budget=$TIME -Dalgorithm=STANDARD_GA -Doutput_variables=search_budget,TARGET_CLASS,Coverage,Total_Time
 
     rm -r src/test  

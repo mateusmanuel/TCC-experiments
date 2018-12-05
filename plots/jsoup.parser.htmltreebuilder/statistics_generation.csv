@@ -1,0 +1,12 @@
+seconds,class,coverage,time
+2,org.jsoup.parser.Tag,0.8905751377523223,13422
+4,org.jsoup.parser.Tag,0.9268324145371978,16449
+6,org.jsoup.parser.Tag,0.9343725593079774,19353
+8,org.jsoup.parser.Tag,0.9271704210269224,19944
+10,org.jsoup.parser.Tag,0.9357609859657692,24044
+12,org.jsoup.parser.Tag,0.9357609859657692,25938
+14,org.jsoup.parser.Tag,0.9320845153775339,27286
+16,org.jsoup.parser.Tag,0.9397754630437292,29233
+18,org.jsoup.parser.Tag,0.9385742399802464,31447
+20,org.jsoup.parser.Tag,0.9422507105684816,31443
+

@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Automatic-Module-Name: org.jsoup
-Bnd-LastModified: 1543506513902
+Bnd-LastModified: 1543968430335
 Build-Jdk: 1.8.0_191
 Built-By: mateus
 Bundle-Description: jsoup is a Java library for working with real-world 
